@@ -1,0 +1,36 @@
+Object-Oriented Programming or OOPs refers to languages that use objects in programming, they use objects as a primary source to implement what is to happen in the code. Objects are seen by the viewer or user, performing tasks assigned by you. Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism etc. in programming. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+Starting off with the method declaration, it consists of six components:
+i)  Access Modifier: Defines the access type of the method i.e. from where it can be accessed in your application. In Java, there are 4 types of access specifiers: 
+	public: Accessible in all classes in your application.
+	protected: Accessible within the package in which it is defined and in its subclass(es) (including subclasses declared outside the package).
+	private: Accessible only within the class in which it is defined.
+	default (declared/defined without using any modifier): Accessible within the same class and package within which its class is defined.
+ii)  The return type: The data type of the value returned by the method or void if it does not return a value.
+iii) Method Name: The rules for field names apply to method names as well, but the convention is a little different.
+iv)  Parameter list: Comma-separated list of the input parameters that are defined, preceded by their data type, within the enclosed parentheses. If there are no parameters, you must use empty parentheses ().
+v)   Exception list: The exceptions you expect the method to throw. You can specify these exception(s).
+vi)  Method body: It is the block of code, enclosed between braces, that you need to execute to perform your intended operations.
+Message Passing: Objects communicate with one another by sending and receiving information to each other. A message for an object is a request for execution of a procedure and therefore will invoke a function in the receiving object that generates the desired results. Message passing involves specifying the name of the object, the name of the function and the information to be sent.
+OOPS concepts are as follows: 
+1.	Class
+2.	Object 
+3.	Method and method passing
+4.	Pillars of OOPs 
+5.	Abstraction
+6.	Encapsulation
+7.	Inheritance
+8.	Polymorphism 
+9.	Compile-time polymorphism
+10.	Runtime polymorphism
+A class is a user-defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all objects of one type. Using classes, you can create multiple objects with the same behavior instead of writing their code multiple times. This includes classes for objects occurring more than once in your code. In general, class declarations can include these components in order: 
+1.	Modifiers: A class can be public or have default access (Refer to this for details).
+2.	Class name: The class name should begin with the initial letter capitalized by convention.
+3.	Superclass (if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+4.	Interfaces (if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
+5.	Body: The class body is surrounded by braces, { }.
+An object is a basic unit of Object-Oriented Programming that represents real-life entities. A typical Java program creates many objects, which as you know, interact by invoking methods. The objects are what perform your code, they are the part of your code visible to the viewer/user. An object mainly consists of: 
+1.	State: It is represented by the attributes of an object. It also reflects the properties of an object.
+2.	Behavior: It is represented by the methods of an object. It also reflects the response of an object to other objects.
+3.	Identity: It is a unique name given to an object that enables it to interact with other objects.
+4.	Method: A method is a collection of statements that perform some specific task and return the result to the caller. A method can perform some specific task without returning anything. Methods allow us to reuse the code without retyping it, which is why they are considered time savers. In Java, every method must be part of \nsome class, which is different from languages like C, C++, and Python. 
+Every line of code that runs in Java must be inside a class. The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename

@@ -1,0 +1,14 @@
+Encapsulation is a fundamental concept of object-oriented programming (OOP) that helps to protect the data and implementation details of a class from the outside world. It involves bundling related data and methods into a single unit, which can be thought of as a "capsule" that protects the inner workings of a class from external interference.
+The main goal of encapsulation is to hide the complexity of a class and to prevent unwanted access to its internal data and methods. This is achieved by using access modifiers to control the visibility of the class members. Access modifiers are keywords that determine which parts of a program can access a particular class member.
+In OOP, there are four access modifiers: 
+	1)public: The public modifier allows a class member to be accessed from anywhere.
+	2) private: The private modifier restricts access to only within the class itself.
+	3)protected: The protected modifier allows access within the same package and its subclasses.
+	4)default: The default modifier allows access within the same package only. 
+
+Benefits of OOP:
+	Encapsulation provides several benefits to OOP, including improved code security and data protection, increased code flexibility and reusability, decreased code complexity and difficulty to maintain, and improved code scalability and performance. By hiding the implementation details of a class, encapsulation promotes loose coupling between classes, which makes the code easier to modify and maintain over time.
+
+Encapsulation is often implemented using getter and setter methods, which are used to access and modify the private data members of a class. Getter methods provide read-only access to the data members, while setter methods provide write-only access. By using getter and setter methods, the internal state of a class can be protected from external interference, and the class can enforce its own data validation rules.
+
+In summary, encapsulation is a key concept in OOP that allows the internal data and methods of a class to be hidden from external access. It promotes loose coupling between classes and improves code security, flexibility, and maintainability. Encapsulation is typically implemented using access modifiers and getter and setter methods, and is an essential part of good software design in OOP.

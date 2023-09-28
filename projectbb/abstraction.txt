@@ -1,0 +1,18 @@
+Abstraction is one of the key concepts of object-oriented programming (OOP) languages. Its main goal is to handle complexity by hiding unnecessary details from the user. That enables the user to implement more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden complexity.
+Objects are the building blocks of Object-Oriented Programming. An object contains some properties and methods. We can hide them from the outer world through access modifiers. We can provide access only for required functions and properties to the other programs. This is the general procedure to implement abstraction in OOPS.
+There are two types of abstraction:
+    1)Data Abstraction
+    2)Process Abstraction
+Data Abstraction:
+	When the object data is not visible to the outer world, it creates data abstraction. If needed, access to the data of the object is provided through some methods.
+Process Abstraction:
+	We do not need to provide details about all the functions of an object. When we hide the internal implementation of the different functions involved in a user operation, it creates process abstraction.
+Abstract Class:
+	Abstract Class is a type of class in OOPs, that declare one or more abstract methods. These classes can have abstract methods as well as concrete methods. A normal class cannot have abstract methods. An abstract class is a class that contains at least one abstract method.Abstract classes help to describe generic types of behaviors and object-oriented programming class hierarchy. It also describes subclasses to offer implementation details of the abstract class.
+Abstract Method:
+	Abstract Method is a method that has just the method definition but does not contain implementation. A method without a body is known as an Abstract Method. It must be declared in an abstract class. The abstract method will never be final because the abstract class must implement all the abstract methods.Abstract methods are mostly declared where two or more subclasses are also doing the same thing in different ways through different implementations. It also extends the same Abstract class and offers different implementations of the abstract methods.
+Interface:
+	An interface in Java is a blueprint of a class. It has static constants and abstract methods.The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.Java Interface also represents the IS-A relationship.It cannot be instantiated just like the abstract class.
+Advantages of Abstraction:
+    i)The main benefit of using an Abstraction in Programming is that it allows you to group several related classes as siblings.
+    ii)Abstraction in Object Oriented Programming helps to reduce the complexity of the design and implementation process of software.
